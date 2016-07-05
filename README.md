@@ -1,21 +1,23 @@
 # StarredRepository
 
-对以前star过的项目进行分类整理，大致结构如下。资源类里有很多宝贵的资料，有算法，教程，源码分析等等。时间紧，没有对一些库进行清除的分类，建议直接搜索关键字，希望对你有所帮助。
+对以前star过的项目进行分类整理，大致结构如下。资源类里有很多宝贵的资料，有算法，教程，源码分析等等。时间紧，没有对一些库进行清楚的分类，建议直接搜索关键字，希望对你有所帮助。
+
+网页地址：<http://isunxu.xyz/cs/github_starred_repository/>
 
 ```
 │------ Android
 │          │----- View
-│						│----- 图表
-│						│----- TAB
-│						│----- 下拉加载
-│						│----- Loding
-│						│----- ViewPager
-│						│----- TimePicker
-│						│----- 高斯模糊
-│						│----- SwipeBack
-│						│----- Dialog
-│						│----- Spinner
-│						│----- Adapter
+│				   │----- 图表
+│					│----- TAB
+│					│----- 下拉加载
+│					│----- Loding
+│					│----- ViewPager
+│					│----- TimePicker
+│					│----- 高斯模糊
+│					│----- SwipeBack
+│					│----- Dialog
+│					│----- Spinner
+│					│----- Adapter
 │          │----- Google
 │          │----- Facebook
 │          │----- Square
