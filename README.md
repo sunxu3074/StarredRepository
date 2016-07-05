@@ -1,4 +1,46 @@
-# Android
+# StarredRepository
+
+对以前star过的项目进行分类整理，大致结构如下。资源类里有很多宝贵的资料，有算法，教程，源码分析等等。时间紧，没有对一些库进行清除的分类，建议直接搜索关键字，希望对你有所帮助。
+
+```
+│------ Android
+│          │----- View
+│						│----- 图表
+│						│----- TAB
+│						│----- 下拉加载
+│						│----- Loding
+│						│----- ViewPager
+│						│----- TimePicker
+│						│----- 高斯模糊
+│						│----- SwipeBack
+│						│----- Dialog
+│						│----- Spinner
+│						│----- Adapter
+│          │----- Google
+│          │----- Facebook
+│          │----- Square
+│          │----- JakeWharton
+│          │----- Yalantis
+│          │----- Material Design
+│          │----- 数据库
+│          │----- Oauth
+│          │----- 框架类
+│          │----- 工具类
+│          │----- 架构类
+│          │----- 测试类
+│          │----- 权限相关
+│          │----- 资源类
+│          │----- APP
+│------ Python
+│------ 前端
+│------ 流媒体
+│------ 杂七杂八
+│
+
+```
+
+   
+## Android
 
 ### View篇
 
@@ -388,7 +430,7 @@
 
 
 
-# APP
+### APP
 
 - [bradybound](https://github.com/oxplot/bradybound)&nbsp;&nbsp; Android下载限速
 - [OuNews](https://github.com/oubowu/OuNews) &nbsp;&nbsp;基于MVP的新闻客户端
@@ -420,7 +462,7 @@
 
 
 
-# Python
+## Python
 
 - [stackoverflow-py-top-qa](https://github.com/wklken/stackoverflow-py-top-qa)&nbsp;&nbsp;stackoverflow上Python相关回答整理翻译
 - [zhihu-py3](https://github.com/7sDream/zhihu-py3)&nbsp;&nbsp;知乎非官方API库 with Python3
@@ -428,7 +470,7 @@
 - [mistune](https://github.com/lepture/mistune)&nbsp;&nbsp;The fastest markdown parser in pure Python with renderer feature, inspired by marked and misaka.
 
  
-# 前端
+## 前端
 
 - [fetool](https://github.com/nieweidong/fetool)  &nbsp;&nbsp;大前端的瑞士军刀 前端的一些资料，工具等
 - [SpinKit](https://github.com/tobiasahlin/SpinKit)  &nbsp;&nbsp;用CSS制作的加载指示器
@@ -440,7 +482,7 @@
 
 
 
-# 流媒体
+## 流媒体
 
 - [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) &nbsp;&nbsp; 搭建rtmp流媒体服务器
 - [red5-server](https://github.com/Red5/red5-server)  &nbsp;&nbsp;Red5
@@ -454,7 +496,7 @@
 
 
 
-# 杂七杂八
+## 杂七杂八
 
 - [Iosevka](https://github.com/be5invis/Iosevka) &nbsp;&nbsp; 字体
 - [Potatso-iOS](https://github.com/shadowsocks/Potatso-iOS)  &nbsp;&nbsp;Shadowsocks in iOS 9 
