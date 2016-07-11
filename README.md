@@ -6,18 +6,7 @@
 
 ```
 │------ Android
-│          │----- View
-│					│----- 图表
-│					│----- TAB
-│					│----- 下拉加载
-│					│----- Loding
-│					│----- ViewPager
-│					│----- TimePicker
-│					│----- 高斯模糊
-│					│----- SwipeBack
-│					│----- Dialog
-│					│----- Spinner
-│					│----- Adapter
+│          │----- 资源类
 │          │----- Google
 │          │----- Facebook
 │          │----- Square
@@ -31,8 +20,19 @@
 │          │----- 架构类
 │          │----- 测试类
 │          │----- 权限相关
-│          │----- 资源类
 │          │----- APP
+│          │----- View
+│					│----- 图表
+│					│----- TAB
+│					│----- 下拉加载
+│					│----- Loding
+│					│----- ViewPager
+│					│----- TimePicker
+│					│----- 高斯模糊
+│					│----- SwipeBack
+│					│----- Dialog
+│					│----- Spinner
+│					│----- Adapter
 │------ Python
 │------ 前端
 │------ 流媒体
@@ -44,151 +44,70 @@
    
 ## Android
 
-### View篇
+### 资源类
 
-- [NumberPickerView](https://github.com/Carbs0126/NumberPickerView) &nbsp;&nbsp; 选择日期 文字
-- [elegant-underline](https://github.com/romainguy/elegant-underline) &nbsp;&nbsp;高逼格下划线
-- [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)&nbsp;&nbsp;渲染PDF阅读适用
-- [DashboardView](https://github.com/SuperKung/DashboardView)&nbsp;&nbsp;自定义仪表盘
-- [smooth-app-bar-layout](https://github.com/henrytao-me/smooth-app-bar-layout)&nbsp;&nbsp;Google Support Design AppBarLayout
-- [VideoListDemo](https://github.com/w1123440793/VideoListDemo)&nbsp;&nbsp;一个视频播放列表demo，视频播放使用的ijkplayer,正在播放视频拖动到不可见区域小窗口播放，可全屏切换 
-- [FunnelView](https://github.com/Arisono/FunnelView) &nbsp;&nbsp; 销售漏斗图
-- [Revealator](https://github.com/Jaouan/Revealator)  &nbsp;&nbsp;An helper to circle reveal/unreveal a view easily
-- [SlidingBallViewPager](https://github.com/dalong982242260/SlidingBallViewPager) &nbsp;&nbsp;仿qq身边的人Viewpager实现
-- [BezierLoadingView](https://github.com/JeasonWong/BezierLoadingView)  &nbsp;&nbsp;炫酷的贝塞尔加载View
-- [ExpandingPager](https://github.com/qs-lll/ExpandingPager) &nbsp;&nbsp; a card peek/pop controller
-- [GuideView](https://github.com/binIoter/GuideView)&nbsp;&nbsp; 为控件添加引导提示
-- [CircleProgressBar](https://github.com/dinuscxj/CircleProgressBar) &nbsp;&nbsp; 实心和线条两种风格的圆环进度条
-- [HotImg](https://github.com/dreamlivemeng/HotImg) &nbsp;&nbsp;图片不规则区域点击事件处理
-- [MediaPlayer](https://github.com/goo4it/MediaPlayer) &nbsp;&nbsp;高仿网易云音乐
-- [PinLockView](https://github.com/aritraroy/PinLockView)  &nbsp;&nbsp;锁屏控件
-- [MarqueeView](https://github.com/sfsheng0322/MarqueeView) &nbsp;&nbsp;垂直翻页公告
-- [A-MusicView](https://github.com/north2014/A-MusicView) &nbsp;&nbsp;音乐波形图 适用于音乐APP 作者有一系列的自定义VIEW
-- [ScratchView](https://github.com/cooltechworks/ScratchView) 即开式VIEW 用于开奖等APP
-- [BubbleView](https://github.com/cpiz/BubbleView/) &nbsp;&nbsp;带箭头的Android气泡控件/容器类
-- [QQBubbleView](https://github.com/Yasic/QQBubbleView)&nbsp;&nbsp;利用三阶贝塞尔曲线模仿QQ空间直播时右下角的礼物冒泡特效
-- [easy-video-player](https://github.com/afollestad/easy-video-player)&nbsp;&nbsp; VideoPlayer ，用可用音乐APP
-- [Depth-LIB-Android-](https://github.com/danielzeller/Depth-LIB-Android-)&nbsp;&nbsp;This library adds depth/thickness to views.Awesome!!!
-- [AndroidVideoPlayer](https://github.com/xiongwei-git/AndroidVideoPlayer) &nbsp;&nbsp;支持MP4&3GP 横屏竖屏全屏转换
-- [CurtainSlidingMenu](https://github.com/7heaven/CurtainSlidingMenu)&nbsp;&nbsp;SlidingMenu With Curtain Effect
-- [FaceTextLayout](https://github.com/HelloVass/FaceTextLayout)&nbsp;&nbsp;将“颜文字”进行萌萌哒排
-- [TestAppBar](https://github.com/SpikeKing/TestAppBar)&nbsp;&nbsp;AppBar 布局的使用方式
-- [OwlView](https://github.com/binglingziyu/OwlView)&nbsp;&nbsp;模仿readme.io登陆页面的动画效果,类似B站的登陆页面
-- [ShadowLayout](https://github.com/DevLight-Mobile-Agency/ShadowLayout)&nbsp;&nbsp;This library allows you to create a shadow effect for your layout based on your child.
-- [XhsWelcomeAnim](https://github.com/w446108264/XhsWelcomeAnim) &nbsp;&nbsp;小红书引导页
-- [JJSearchViewAnim](https://github.com/android-cjj/JJSearchViewAnim)&nbsp;&nbsp;一个炫酷的SearchView搜索动画库
-- [Zhihu-Parallax-Animation](https://github.com/ryanhoo/Zhihu-Parallax-Animation)&nbsp;&nbsp;知乎 Android 客户端启动页的视差动画效果实现
-- [folding-cell-android](https://github.com/Ramotion/folding-cell-android) &nbsp;&nbsp;炫酷的动画
-- [NodeFlow](https://github.com/Telenav/NodeFlow)&nbsp;&nbsp;NodeFlow is a library that makes visualizing hierarchical content easier.
-- [android-vertical-slide-view](https://github.com/xmuSistone/android-vertical-slide-view)&nbsp;&nbsp;仿照淘宝和聚美优品，在商品详情页，向上拖动时，可以加载下一页
-- [TimelineView](https://github.com/alorma/TimelineView)&nbsp;&nbsp;时间线
-- [ArcMenu](https://github.com/daCapricorn/ArcMenu)&nbsp;&nbsp;仿PATH的MENU
-- [DraggableFlagView](https://github.com/wangjiegulu/DraggableFlagView)&nbsp;&nbsp;可拖拽的红点，（仿新版QQ，tab下面拖拽标记为已读的效果），拖拽一定的距离可以消失回调。
-- [android-pathview-SVG](https://github.com/geftimov/android-pathview) &nbsp;&nbsp;Animate svg.
-- [BiuEditText](https://github.com/xujinyang/BiuEditText)&nbsp;&nbsp;biu，biu，一个有趣的EditText
-- [ZoomTextView](https://github.com/nomanr/ZoomTextView)&nbsp;&nbsp;根据收拾放大TextView.
-- [LikeButton](https://github.com/jd-alexander/LikeButton)&nbsp;&nbsp;仿Tweet点赞动画效果
-- [HTextView](https://github.com/hanks-zyh/HTextView)&nbsp;&nbsp;Animation effects to TextView
-- [Highlight](https://github.com/hongyangAndroid/Highlight)&nbsp;&nbsp;一个用于app指向性功能高亮的库。引导使用
-- [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)&nbsp;&nbsp;Cute view animation collection.
-- [AndroidResideMenu](https://github.com/SpecialCyCi/AndroidResideMenu)&nbsp;&nbsp;Look like Double SlidingMenu.
-- [AndroidViewHover](https://github.com/daimajia/AndroidViewHover)&nbsp;&nbsp;A hover view, to show menu, to show messages.
-- [RecyclerViewUndoSwipe](https://github.com/HoneyNeutrons/RecyclerViewUndoSwipe)&nbsp;&nbsp; ItemTouch helper swipe and drag support for RecyclerView 
-- [WaterWaveView](https://github.com/Geekince/WaterWaveView)&nbsp;&nbsp;模拟水波纹的效果，实现流量的动态显示。
-- [electric_screen2D](https://github.com/gumingwei/electric_screen2D)&nbsp;&nbsp;electric screen in your phone,like magic wallpaper
-- [TextSurface](https://github.com/elevenetc/TextSurface)&nbsp;&nbsp;A little animation framework which could help you to show message in a nice looking way
-- [ExplosionField](https://github.com/tyrantgit/ExplosionField)&nbsp;&nbsp;explosive dust effect for views.
-- [ToggleButton](https://github.com/zcweng/ToggleButton)
-- [circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
-- [SwitchButton](https://github.com/xiaopansky/SwitchButton)
-
-
-##### 图表
-
-- [AndroidChart](https://github.com/JeasonWong/AndroidChart) &nbsp;&nbsp;Some chart.
-
-
-
-##### TAB
-
-- [NavigationTabStrip](https://github.com/DevLight-Mobile-Agency/NavigationTabStrip) &nbsp;&nbsp;高大上的TAB
-- [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout/) &nbsp;&nbsp;一个Android TabLayout库 
-- [LuseenBottomNavigation](https://github.com/armcha/LuseenBottomNavigation) &nbsp;&nbsp;A cool Bottom Navigation.
-- [Dota2_Max_Tab](https://github.com/sunxu3074/Dota2_Max_Tab)&nbsp;&nbsp;仿Dota2_Max的三角形联动
-- [RecyclerTabLayout](https://github.com/nshmura/RecyclerTabLayout)&nbsp;&nbsp;An efficient TabLayout library implemented with RecyclerView.
-- [PagerSlidingTabStrip](https://github.com/astuetz/PagerSlidingTabStrip)&nbsp;&nbsp;An interactive indicator to navigate between the different pages of a ViewPager
-- [android-segmented-control](https://github.com/Kaopiz/android-segmented-control)&nbsp;&nbsp;Based on RadioGroup and RadioButton widget.
-
-
-
-##### 下拉加载
-
-- [pull-to-make-soup](https://github.com/Yalantis/pull-to-make-soup) &nbsp;&nbsp;可用于烹饪类APP 下拉加载使用
-- [RecyclerRefreshLayout](https://github.com/dinuscxj/RecyclerRefreshLayout) &nbsp;&nbsp;下拉刷新
+- [Android-Dev-Favorites](https://github.com/ruijun/Android-Dev-Favorites) &nbsp;&nbsp; 收集Android开发相关知识合集
+- [google-api-go-client](https://github.com/google/google-api-go-client) &nbsp;&nbsp; Auto-generated Google APIs for Go
+- [android-dynamical-loading](https://github.com/kaedea/android-dynamical-loading)&nbsp;&nbsp; Android 动态加载相关资料
+- [AndroidReview](https://github.com/envyfan/AndroidReview) &nbsp;&nbsp;Android面试复习资料
+- [Diycode](https://github.com/DiyCodes/code_news) &nbsp;&nbsp;Diycode每日精选
+- [CustomViewBlog](https://github.com/Idtk/Blog) &nbsp;&nbsp;自定义View资料
+- [android-best-practices](https://github.com/futurice/android-best-practices) &nbsp;&nbsp;Futurice的课程
+- [macdev](https://github.com/pubyun/macdev)&nbsp;&nbsp;使用Mac作为开发工具的过程中的一些体会做个记录和整理
+- [Trinea/android-open-project](https://github.com/Trinea/android-open-project) Android开源项目集合
+- [Best-App](https://github.com/hzlzh/Best-App) &nbsp;&nbsp;Mac 神兵利器
+- [git-recipes](https://github.com/geeeeeeeeek/git-recipes)&nbsp;&nbsp;高质量的Git中文教程
+- [android-proguard-cn](https://github.com/msdx/android-proguard-cn)&nbsp;&nbsp;Android混淆规则
+- [android-gradle-book-code](https://github.com/rujews/android-gradle-book-code)&nbsp;&nbsp;《Android Gradle权威指南》的示例代码
+- [Android终端专项宝典及资源](https://github.com/mobileperfman/BookResource)&nbsp;&nbsp;适用：终端专项测试&nbsp;&nbsp; 终端系统测试 &nbsp;&nbsp;高级终端开发
+- [AndroidNote](https://github.com/GcsSloop/AndroidNote)&nbsp;&nbsp; 安卓自定义View进阶系列教程
+- [AndroidSdkSourceAnalysis](https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis)&nbsp;&nbsp; android sdk 源码解析
+- [TurboDex](https://github.com/asLody/TurboDex/)&nbsp;&nbsp;TurboDex: 在Android瞬间加载Dex
+- [In-depthStudy](https://github.com/sfsheng0322/In-depthStudy)&nbsp;&nbsp;Android 深入学习工程
+- [growth-ebook](https://github.com/phodal/growth-ebook)&nbsp;&nbsp;《全栈增长工程师指南》
+- [kotlin-notes](https://github.com/mcxiaoke/kotlin-notes)&nbsp;&nbsp;Kotlin中文教程
+- [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)&nbsp;&nbsp;Android快速开发框架
+- [Android_Data](https://github.com/Freelander/Android_Data) &nbsp;&nbsp;Android学习资料收集
+- [JKeyboardPanelSwitch](https://github.com/Jacksgong/JKeyboardPanelSwitch)&nbsp;&nbsp;Android键盘面板冲突 布局闪动处理方案
+- [LeeCo](https://github.com/Nightonke/LeeCo) &nbsp;&nbsp;超过300道面试算法题，29个分类，详尽的题解、讨论和评论
+- [AndroidDifficultAnalysis](https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis)&nbsp;&nbsp;Android 重难点解析
+- [stackoverflow-java-top-qa](https://github.com/giantray/stackoverflow-java-top-qa)&nbsp;&nbsp;stackoverflow上Java相关回答整理翻译
+- [android_dp_analysis_code](https://github.com/hehonghui/android_dp_analysis_code)&nbsp;&nbsp;《Android 源码设计模式解析与实战》示例代码
+- [Algorithms](https://github.com/pedrovgs/Algorithms)&nbsp;&nbsp;Solutions for some common algorithm problems written in Java.
+- [AndroidProcess](https://github.com/wenmingvs/AndroidProcess)&nbsp;&nbsp;6种方法来判断App处于前台还是后台
+- [开发过程中遇到的坑](https://github.com/simple-android-framework-exchange/the-fucking-traps-in-android-dev)
+- [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) &nbsp;&nbsp;开源APP集合
+- [RxAndroid](https://github.com/ReactiveX/RxAndroid)&nbsp;&nbsp;RxJava bindings for Android.
+- [AndroidDynamicLoader](https://github.com/mmin18/AndroidDynamicLoader)&nbsp;&nbsp;动态加载插件
+- [kotlin-for-android-developers-zh](https://github.com/wangjiegulu/kotlin-for-android-developers-zh)&nbsp;&nbsp;Kotlin for android developers in chinese.
+- [kotgo](https://github.com/nekocode/kotgo) &nbsp;&nbsp; An android development framework on kotlin using MVP architecture.
+- [android-discuss](https://github.com/android-cn/android-discuss)&nbsp;&nbsp;Android 问题交流讨论坛
+- [RengwuxianRxjava](https://github.com/androidmalin/RengwuxianRxjava)&nbsp;&nbsp;RxJava 入门教程
+- [react-native-guide](https://github.com/reactnativecn/react-native-guide)&nbsp;&nbsp;React-Native学习指南
+- [awesome-java-cn](https://github.com/jobbole/awesome-java-cn)&nbsp;&nbsp;Java资源大全中文版
+- [The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July)&nbsp;&nbsp;July的新书《编程之法：面试和算法心得》
+- [AndResGuard](https://github.com/shwenzhang/AndResGuard/)&nbsp;&nbsp;Android资源混淆工具使用说明
+- [gold-miner](https://github.com/xitu/gold-miner)&nbsp;&nbsp;掘金翻译计划，翻译掘金上优质的英文文章
+- [android-arsenal](https://github.com/vbauer/android-arsenal.com)&nbsp;&nbsp;Source to android-arsenal.herokuapp.com.
 - [Android-Ptr-Comparison](https://github.com/desmond1121/Android-Ptr-Comparison)&nbsp;&nbsp;安卓下拉刷新开源库对比
-- [BGARefreshLayout-Android](https://github.com/bingoogolapple/BGARefreshLayout-Android)&nbsp;&nbsp;多种下拉刷新效果、上拉加载更多、可配置自定义头部广告位
-
-##### Loding
-
-- [Android-SpinKit](https://github.com/ybq/Android-SpinKit) &nbsp;&nbsp;炫酷的加载，实现了[SpinKit](https://github.com/tobiasahlin/SpinKit) 
-- [LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable) &nbsp;&nbsp;炫酷的Loding动画
-- [GifLoadingView](https://github.com/Rogero0o/GifLoadingView)&nbsp;&nbsp;炫酷的Loding动画
-- [-dampView-springingView](https://github.com/Huyamin150/-dampView-springingView)&nbsp;&nbsp;带有阻尼效果（橡皮筋效果）跳动的Loading动画
-- [BoilingLoadingView](https://github.com/Yellow5A5/BoilingLoadingView)&nbsp;&nbsp;锅煮萝卜的Loading动画
-- [CoolAndroidAnim](https://github.com/TomWithJerry/CoolAndroidAnim)
-- [AdhesiveLoadingView](https://github.com/yxping/AdhesiveLoadingView)&nbsp;&nbsp;具有粘性的滑动小球，跌落反弹形成loading的效果
-- [android-shapeLoadingView](https://github.com/zzz40500/android-shapeLoadingView)&nbsp;&nbsp;高仿新版58 加载动画
-- [GoogleProgressBar](https://github.com/jpardogo/GoogleProgressBar)Android library to display progress like google does in some of his services.
-
-
-
-##### ViewPager
-
-- [ParallaxViewPager](https://github.com/ybq/ParallaxViewPager) &nbsp;&nbsp;ParallaxViewPager
-- [CircleIndicator](https://github.com/ongakuer/CircleIndicator)&nbsp;&nbsp;A lightweight viewpager indicator
-- [MagicViewPager](https://github.com/hongyangAndroid/MagicViewPager)&nbsp;&nbsp;单页显示3个Item的ViewPager切换，适用于Banner
-- [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager) &nbsp;&nbsp;类似Google的nexus机子6.0系统的开机动画
-- [InfiniteIndicator](https://github.com/lightSky/InfiniteIndicator)&nbsp;&nbsp;This lib can be used for viewpager infinite loop with indicator easily.
-
-
-
-##### TimePicker
-
-- [TimePickerDialog](https://github.com/JZXiang/TimePickerDialog)&nbsp;&nbsp;Android时间选择器
-
-##### SwipeBack
-
-- [SwipeBackSample](https://github.com/hanhailong/SwipeBackSample)&nbsp;&nbsp;高仿微信手势滑动返回
-- [SwipeBack](https://github.com/sockeqwe/SwipeBack)&nbsp;&nbsp;高仿简书手势滑动返回
-- [SwipeBack](https://github.com/liuguangqiang/SwipeBack)&nbsp;&nbsp;SwipeBack Lib,可定制手势.
-- [RecyclerViewUndoSwipe](https://github.com/HoneyNeutrons/RecyclerViewUndoSwipe)&nbsp;&nbsp; ItemTouch helper swipe and drag support for RecyclerView 
-- [AndroidSwipeLayout](https://github.com/daimajia/AndroidSwipeLayout)&nbsp;&nbsp;The Most Powerful Swipe Layout!
-- [android-PullRefreshLayout](https://github.com/baoyongzhang/android-PullRefreshLayout)&nbsp;&nbsp;This component like SwipeRefreshLayout, it is more beautiful than SwipeRefreshLayout.
-- [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)&nbsp;&nbsp;An Android library that help you to build app with swipe back gesture.
-
-
-
-##### 高斯模糊
-
-- [ImageBlurring](https://github.com/qiujuer/ImageBlurring)
-- [android-stackblur](https://github.com/kikoso/android-stackblur)&nbsp;&nbsp; 
-- [RxBlur](https://github.com/SmartDengg/RxBlur)&nbsp;&nbsp; 用RxJava处理和操作高斯模糊效果的简单用例。
-- [BlurDialogFragment](https://github.com/tvbarthel/BlurDialogFragment)
-
-##### Adapter
-
-- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)&nbsp;&nbsp;一个强大并且灵活的RecyclerViewAdapter
-- [base-adapter-helper](https://github.com/JoanZapata/base-adapter-helper)&nbsp;&nbsp;Abstraction for the usual BaseAdapter "ViewHolder" pattern
-- [RecyclerView-FlexibleDivider](https://github.com/yqritc/RecyclerView-FlexibleDivider) &nbsp;&nbsp;RecyclerView分割线
-
-##### Spinner 
-
-- [Material-Spinner](https://github.com/jaredrummler/Material-Spinner) 
-
-##### Dialog
-
-- [material-dialogs](https://github.com/afollestad/material-dialogs)
-- [MaterialDialog](https://github.com/drakeet/MaterialDialog)
+- [dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)&nbsp;&nbsp;Apk动态加载框架
+- [50AH-code](https://github.com/Macarse/50AH-code)&nbsp;&nbsp;50 Android Hacks book source code.
+- [免费编程书资源](https://github.com/vhf/free-programming-books)
+- [InterviewQuestion](https://github.com/leerduo/InterviewQuestion)&nbsp;&nbsp;整理的常见的问题.
+- [android_design_patterns_analysis](https://github.com/simple-android-framework/android_design_patterns_analysis)&nbsp;&nbsp;Android源码设计模式分析项目.
+- [值得阅读的android技术文章](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles)
+- [BilibiliAPIDocs](https://github.com/fython/BilibiliAPIDocs)&nbsp;&nbsp;Bilibili API 第三方文档
+- [android-open-project-analysis](https://github.com/android-cn/android-open-project-analysis)&nbsp;&nbsp;Android 开源项目源码解析
+- [android-dev-com](https://github.com/android-cn/android-dev-com)&nbsp;&nbsp;国外著名公司及开发者信息
+- [android-dev-cn](https://github.com/android-cn/android-dev-cn)&nbsp;&nbsp;国内部分开发者信息
+- [trip-to-iOS](https://github.com/Aufree/trip-to-iOS)&nbsp;&nbsp;iOS学习资料整理
+- [android-common-lib](https://github.com/Trinea/android-common)&nbsp;&nbsp;主要包括：缓存(图片缓存、预取缓存、网络缓存)、公共View(下拉及底部加载更多ListView、底部加载更多ScrollView、滑动一页Gallery)及Android常用工具类(网络、下载、Android资源操作、shell、文件、Json、随机数、Collection等等)。
+- [hongyangAndroid-BlogDemos](https://github.com/hongyangAndroid/Android_Blog_Demos)&nbsp;&nbsp;hongyang大神存储CSDN博客的一些源码
+- [material_design_zh](https://github.com/1sters/material_design_zh)&nbsp;&nbsp;Material Design 中文协同翻译
+- [android-tech-frontier](https://github.com/hehonghui/android-tech-frontier)&nbsp;&nbsp;Android开发技术前线
+- [Awesome-RxJava](https://github.com/lzyzsd/Awesome-RxJava)&nbsp;&nbsp;RxJava resources
+- [Point-of-Android](https://github.com/FX-Max/Point-of-Android)&nbsp;&nbsp;Android 一些重要知识点解析整理
+- [android-training-course-in-chinese](https://github.com/kesenhoo/android-training-course-in-chinese)&nbsp;&nbsp;Android官方培训课程中文版
 
 ### Google
 
@@ -364,74 +283,6 @@
 
 - [Nammu](https://github.com/tajchert/Nammu) &nbsp;&nbsp;后台监听权限并回调
 
-
-### 资源类
-
-- [Android-Dev-Favorites](https://github.com/ruijun/Android-Dev-Favorites) &nbsp;&nbsp; 收集Android开发相关知识合集
-- [google-api-go-client](https://github.com/google/google-api-go-client) &nbsp;&nbsp; Auto-generated Google APIs for Go
-- [android-dynamical-loading](https://github.com/kaedea/android-dynamical-loading)&nbsp;&nbsp; Android 动态加载相关资料
-- [AndroidReview](https://github.com/envyfan/AndroidReview) &nbsp;&nbsp;Android面试复习资料
-- [Diycode](https://github.com/DiyCodes/code_news) &nbsp;&nbsp;Diycode每日精选
-- [CustomViewBlog](https://github.com/Idtk/Blog) &nbsp;&nbsp;自定义View资料
-- [android-best-practices](https://github.com/futurice/android-best-practices) &nbsp;&nbsp;Futurice的课程
-- [macdev](https://github.com/pubyun/macdev)&nbsp;&nbsp;使用Mac作为开发工具的过程中的一些体会做个记录和整理
-- [Trinea/android-open-project](https://github.com/Trinea/android-open-project) Android开源项目集合
-- [Best-App](https://github.com/hzlzh/Best-App) &nbsp;&nbsp;Mac 神兵利器
-- [git-recipes](https://github.com/geeeeeeeeek/git-recipes)&nbsp;&nbsp;高质量的Git中文教程
-- [android-proguard-cn](https://github.com/msdx/android-proguard-cn)&nbsp;&nbsp;Android混淆规则
-- [android-gradle-book-code](https://github.com/rujews/android-gradle-book-code)&nbsp;&nbsp;《Android Gradle权威指南》的示例代码
-- [Android终端专项宝典及资源](https://github.com/mobileperfman/BookResource)&nbsp;&nbsp;适用：终端专项测试&nbsp;&nbsp; 终端系统测试 &nbsp;&nbsp;高级终端开发
-- [AndroidNote](https://github.com/GcsSloop/AndroidNote)&nbsp;&nbsp; 安卓自定义View进阶系列教程
-- [AndroidSdkSourceAnalysis](https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis)&nbsp;&nbsp; android sdk 源码解析
-- [TurboDex](https://github.com/asLody/TurboDex/)&nbsp;&nbsp;TurboDex: 在Android瞬间加载Dex
-- [In-depthStudy](https://github.com/sfsheng0322/In-depthStudy)&nbsp;&nbsp;Android 深入学习工程
-- [growth-ebook](https://github.com/phodal/growth-ebook)&nbsp;&nbsp;《全栈增长工程师指南》
-- [kotlin-notes](https://github.com/mcxiaoke/kotlin-notes)&nbsp;&nbsp;Kotlin中文教程
-- [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)&nbsp;&nbsp;Android快速开发框架
-- [Android_Data](https://github.com/Freelander/Android_Data) &nbsp;&nbsp;Android学习资料收集
-- [JKeyboardPanelSwitch](https://github.com/Jacksgong/JKeyboardPanelSwitch)&nbsp;&nbsp;Android键盘面板冲突 布局闪动处理方案
-- [LeeCo](https://github.com/Nightonke/LeeCo) &nbsp;&nbsp;超过300道面试算法题，29个分类，详尽的题解、讨论和评论
-- [AndroidDifficultAnalysis](https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis)&nbsp;&nbsp;Android 重难点解析
-- [stackoverflow-java-top-qa](https://github.com/giantray/stackoverflow-java-top-qa)&nbsp;&nbsp;stackoverflow上Java相关回答整理翻译
-- [android_dp_analysis_code](https://github.com/hehonghui/android_dp_analysis_code)&nbsp;&nbsp;《Android 源码设计模式解析与实战》示例代码
-- [Algorithms](https://github.com/pedrovgs/Algorithms)&nbsp;&nbsp;Solutions for some common algorithm problems written in Java.
-- [AndroidProcess](https://github.com/wenmingvs/AndroidProcess)&nbsp;&nbsp;6种方法来判断App处于前台还是后台
-- [开发过程中遇到的坑](https://github.com/simple-android-framework-exchange/the-fucking-traps-in-android-dev)
-- [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) &nbsp;&nbsp;开源APP集合
-- [RxAndroid](https://github.com/ReactiveX/RxAndroid)&nbsp;&nbsp;RxJava bindings for Android.
-- [AndroidDynamicLoader](https://github.com/mmin18/AndroidDynamicLoader)&nbsp;&nbsp;动态加载插件
-- [kotlin-for-android-developers-zh](https://github.com/wangjiegulu/kotlin-for-android-developers-zh)&nbsp;&nbsp;Kotlin for android developers in chinese.
-- [kotgo](https://github.com/nekocode/kotgo) &nbsp;&nbsp; An android development framework on kotlin using MVP architecture.
-- [android-discuss](https://github.com/android-cn/android-discuss)&nbsp;&nbsp;Android 问题交流讨论坛
-- [RengwuxianRxjava](https://github.com/androidmalin/RengwuxianRxjava)&nbsp;&nbsp;RxJava 入门教程
-- [react-native-guide](https://github.com/reactnativecn/react-native-guide)&nbsp;&nbsp;React-Native学习指南
-- [awesome-java-cn](https://github.com/jobbole/awesome-java-cn)&nbsp;&nbsp;Java资源大全中文版
-- [The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July)&nbsp;&nbsp;July的新书《编程之法：面试和算法心得》
-- [AndResGuard](https://github.com/shwenzhang/AndResGuard/)&nbsp;&nbsp;Android资源混淆工具使用说明
-- [gold-miner](https://github.com/xitu/gold-miner)&nbsp;&nbsp;掘金翻译计划，翻译掘金上优质的英文文章
-- [android-arsenal](https://github.com/vbauer/android-arsenal.com)&nbsp;&nbsp;Source to android-arsenal.herokuapp.com.
-- [Android-Ptr-Comparison](https://github.com/desmond1121/Android-Ptr-Comparison)&nbsp;&nbsp;安卓下拉刷新开源库对比
-- [dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)&nbsp;&nbsp;Apk动态加载框架
-- [50AH-code](https://github.com/Macarse/50AH-code)&nbsp;&nbsp;50 Android Hacks book source code.
-- [免费编程书资源](https://github.com/vhf/free-programming-books)
-- [InterviewQuestion](https://github.com/leerduo/InterviewQuestion)&nbsp;&nbsp;整理的常见的问题.
-- [android_design_patterns_analysis](https://github.com/simple-android-framework/android_design_patterns_analysis)&nbsp;&nbsp;Android源码设计模式分析项目.
-- [值得阅读的android技术文章](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles)
-- [BilibiliAPIDocs](https://github.com/fython/BilibiliAPIDocs)&nbsp;&nbsp;Bilibili API 第三方文档
-- [android-open-project-analysis](https://github.com/android-cn/android-open-project-analysis)&nbsp;&nbsp;Android 开源项目源码解析
-- [android-dev-com](https://github.com/android-cn/android-dev-com)&nbsp;&nbsp;国外著名公司及开发者信息
-- [android-dev-cn](https://github.com/android-cn/android-dev-cn)&nbsp;&nbsp;国内部分开发者信息
-- [trip-to-iOS](https://github.com/Aufree/trip-to-iOS)&nbsp;&nbsp;iOS学习资料整理
-- [android-common-lib](https://github.com/Trinea/android-common)&nbsp;&nbsp;主要包括：缓存(图片缓存、预取缓存、网络缓存)、公共View(下拉及底部加载更多ListView、底部加载更多ScrollView、滑动一页Gallery)及Android常用工具类(网络、下载、Android资源操作、shell、文件、Json、随机数、Collection等等)。
-- [hongyangAndroid-BlogDemos](https://github.com/hongyangAndroid/Android_Blog_Demos)&nbsp;&nbsp;hongyang大神存储CSDN博客的一些源码
-- [material_design_zh](https://github.com/1sters/material_design_zh)&nbsp;&nbsp;Material Design 中文协同翻译
-- [android-tech-frontier](https://github.com/hehonghui/android-tech-frontier)&nbsp;&nbsp;Android开发技术前线
-- [Awesome-RxJava](https://github.com/lzyzsd/Awesome-RxJava)&nbsp;&nbsp;RxJava resources
-- [Point-of-Android](https://github.com/FX-Max/Point-of-Android)&nbsp;&nbsp;Android 一些重要知识点解析整理
-- [android-training-course-in-chinese](https://github.com/kesenhoo/android-training-course-in-chinese)&nbsp;&nbsp;Android官方培训课程中文版
-
-
-
 ### APP
 
 - [bradybound](https://github.com/oxplot/bradybound)&nbsp;&nbsp; Android下载限速
@@ -462,6 +313,151 @@
 - [ZhihuPaper](https://github.com/cundong/ZhihuPaper) &nbsp;&nbsp;一个知乎日报客户端
 - [minicat](https://github.com/mcxiaoke/minicat)简介的饭否APP
 
+### View篇
+
+- [NumberPickerView](https://github.com/Carbs0126/NumberPickerView) &nbsp;&nbsp; 选择日期 文字
+- [elegant-underline](https://github.com/romainguy/elegant-underline) &nbsp;&nbsp;高逼格下划线
+- [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)&nbsp;&nbsp;渲染PDF阅读适用
+- [DashboardView](https://github.com/SuperKung/DashboardView)&nbsp;&nbsp;自定义仪表盘
+- [smooth-app-bar-layout](https://github.com/henrytao-me/smooth-app-bar-layout)&nbsp;&nbsp;Google Support Design AppBarLayout
+- [VideoListDemo](https://github.com/w1123440793/VideoListDemo)&nbsp;&nbsp;一个视频播放列表demo，视频播放使用的ijkplayer,正在播放视频拖动到不可见区域小窗口播放，可全屏切换 
+- [FunnelView](https://github.com/Arisono/FunnelView) &nbsp;&nbsp; 销售漏斗图
+- [Revealator](https://github.com/Jaouan/Revealator)  &nbsp;&nbsp;An helper to circle reveal/unreveal a view easily
+- [SlidingBallViewPager](https://github.com/dalong982242260/SlidingBallViewPager) &nbsp;&nbsp;仿qq身边的人Viewpager实现
+- [BezierLoadingView](https://github.com/JeasonWong/BezierLoadingView)  &nbsp;&nbsp;炫酷的贝塞尔加载View
+- [ExpandingPager](https://github.com/qs-lll/ExpandingPager) &nbsp;&nbsp; a card peek/pop controller
+- [GuideView](https://github.com/binIoter/GuideView)&nbsp;&nbsp; 为控件添加引导提示
+- [CircleProgressBar](https://github.com/dinuscxj/CircleProgressBar) &nbsp;&nbsp; 实心和线条两种风格的圆环进度条
+- [HotImg](https://github.com/dreamlivemeng/HotImg) &nbsp;&nbsp;图片不规则区域点击事件处理
+- [MediaPlayer](https://github.com/goo4it/MediaPlayer) &nbsp;&nbsp;高仿网易云音乐
+- [PinLockView](https://github.com/aritraroy/PinLockView)  &nbsp;&nbsp;锁屏控件
+- [MarqueeView](https://github.com/sfsheng0322/MarqueeView) &nbsp;&nbsp;垂直翻页公告
+- [A-MusicView](https://github.com/north2014/A-MusicView) &nbsp;&nbsp;音乐波形图 适用于音乐APP 作者有一系列的自定义VIEW
+- [ScratchView](https://github.com/cooltechworks/ScratchView) 即开式VIEW 用于开奖等APP
+- [BubbleView](https://github.com/cpiz/BubbleView/) &nbsp;&nbsp;带箭头的Android气泡控件/容器类
+- [QQBubbleView](https://github.com/Yasic/QQBubbleView)&nbsp;&nbsp;利用三阶贝塞尔曲线模仿QQ空间直播时右下角的礼物冒泡特效
+- [easy-video-player](https://github.com/afollestad/easy-video-player)&nbsp;&nbsp; VideoPlayer ，用可用音乐APP
+- [Depth-LIB-Android-](https://github.com/danielzeller/Depth-LIB-Android-)&nbsp;&nbsp;This library adds depth/thickness to views.Awesome!!!
+- [AndroidVideoPlayer](https://github.com/xiongwei-git/AndroidVideoPlayer) &nbsp;&nbsp;支持MP4&3GP 横屏竖屏全屏转换
+- [CurtainSlidingMenu](https://github.com/7heaven/CurtainSlidingMenu)&nbsp;&nbsp;SlidingMenu With Curtain Effect
+- [FaceTextLayout](https://github.com/HelloVass/FaceTextLayout)&nbsp;&nbsp;将“颜文字”进行萌萌哒排
+- [TestAppBar](https://github.com/SpikeKing/TestAppBar)&nbsp;&nbsp;AppBar 布局的使用方式
+- [OwlView](https://github.com/binglingziyu/OwlView)&nbsp;&nbsp;模仿readme.io登陆页面的动画效果,类似B站的登陆页面
+- [ShadowLayout](https://github.com/DevLight-Mobile-Agency/ShadowLayout)&nbsp;&nbsp;This library allows you to create a shadow effect for your layout based on your child.
+- [XhsWelcomeAnim](https://github.com/w446108264/XhsWelcomeAnim) &nbsp;&nbsp;小红书引导页
+- [JJSearchViewAnim](https://github.com/android-cjj/JJSearchViewAnim)&nbsp;&nbsp;一个炫酷的SearchView搜索动画库
+- [Zhihu-Parallax-Animation](https://github.com/ryanhoo/Zhihu-Parallax-Animation)&nbsp;&nbsp;知乎 Android 客户端启动页的视差动画效果实现
+- [folding-cell-android](https://github.com/Ramotion/folding-cell-android) &nbsp;&nbsp;炫酷的动画
+- [NodeFlow](https://github.com/Telenav/NodeFlow)&nbsp;&nbsp;NodeFlow is a library that makes visualizing hierarchical content easier.
+- [android-vertical-slide-view](https://github.com/xmuSistone/android-vertical-slide-view)&nbsp;&nbsp;仿照淘宝和聚美优品，在商品详情页，向上拖动时，可以加载下一页
+- [TimelineView](https://github.com/alorma/TimelineView)&nbsp;&nbsp;时间线
+- [ArcMenu](https://github.com/daCapricorn/ArcMenu)&nbsp;&nbsp;仿PATH的MENU
+- [DraggableFlagView](https://github.com/wangjiegulu/DraggableFlagView)&nbsp;&nbsp;可拖拽的红点，（仿新版QQ，tab下面拖拽标记为已读的效果），拖拽一定的距离可以消失回调。
+- [android-pathview-SVG](https://github.com/geftimov/android-pathview) &nbsp;&nbsp;Animate svg.
+- [BiuEditText](https://github.com/xujinyang/BiuEditText)&nbsp;&nbsp;biu，biu，一个有趣的EditText
+- [ZoomTextView](https://github.com/nomanr/ZoomTextView)&nbsp;&nbsp;根据收拾放大TextView.
+- [LikeButton](https://github.com/jd-alexander/LikeButton)&nbsp;&nbsp;仿Tweet点赞动画效果
+- [HTextView](https://github.com/hanks-zyh/HTextView)&nbsp;&nbsp;Animation effects to TextView
+- [Highlight](https://github.com/hongyangAndroid/Highlight)&nbsp;&nbsp;一个用于app指向性功能高亮的库。引导使用
+- [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)&nbsp;&nbsp;Cute view animation collection.
+- [AndroidResideMenu](https://github.com/SpecialCyCi/AndroidResideMenu)&nbsp;&nbsp;Look like Double SlidingMenu.
+- [AndroidViewHover](https://github.com/daimajia/AndroidViewHover)&nbsp;&nbsp;A hover view, to show menu, to show messages.
+- [RecyclerViewUndoSwipe](https://github.com/HoneyNeutrons/RecyclerViewUndoSwipe)&nbsp;&nbsp; ItemTouch helper swipe and drag support for RecyclerView 
+- [WaterWaveView](https://github.com/Geekince/WaterWaveView)&nbsp;&nbsp;模拟水波纹的效果，实现流量的动态显示。
+- [electric_screen2D](https://github.com/gumingwei/electric_screen2D)&nbsp;&nbsp;electric screen in your phone,like magic wallpaper
+- [TextSurface](https://github.com/elevenetc/TextSurface)&nbsp;&nbsp;A little animation framework which could help you to show message in a nice looking way
+- [ExplosionField](https://github.com/tyrantgit/ExplosionField)&nbsp;&nbsp;explosive dust effect for views.
+- [ToggleButton](https://github.com/zcweng/ToggleButton)
+- [circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
+- [SwitchButton](https://github.com/xiaopansky/SwitchButton)
+
+
+##### 图表
+
+- [AndroidChart](https://github.com/JeasonWong/AndroidChart) &nbsp;&nbsp;Some chart.
+
+
+
+##### TAB
+
+- [NavigationTabStrip](https://github.com/DevLight-Mobile-Agency/NavigationTabStrip) &nbsp;&nbsp;高大上的TAB
+- [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout/) &nbsp;&nbsp;一个Android TabLayout库 
+- [LuseenBottomNavigation](https://github.com/armcha/LuseenBottomNavigation) &nbsp;&nbsp;A cool Bottom Navigation.
+- [Dota2_Max_Tab](https://github.com/sunxu3074/Dota2_Max_Tab)&nbsp;&nbsp;仿Dota2_Max的三角形联动
+- [RecyclerTabLayout](https://github.com/nshmura/RecyclerTabLayout)&nbsp;&nbsp;An efficient TabLayout library implemented with RecyclerView.
+- [PagerSlidingTabStrip](https://github.com/astuetz/PagerSlidingTabStrip)&nbsp;&nbsp;An interactive indicator to navigate between the different pages of a ViewPager
+- [android-segmented-control](https://github.com/Kaopiz/android-segmented-control)&nbsp;&nbsp;Based on RadioGroup and RadioButton widget.
+
+
+
+##### 下拉加载
+
+- [pull-to-make-soup](https://github.com/Yalantis/pull-to-make-soup) &nbsp;&nbsp;可用于烹饪类APP 下拉加载使用
+- [RecyclerRefreshLayout](https://github.com/dinuscxj/RecyclerRefreshLayout) &nbsp;&nbsp;下拉刷新
+- [Android-Ptr-Comparison](https://github.com/desmond1121/Android-Ptr-Comparison)&nbsp;&nbsp;安卓下拉刷新开源库对比
+- [BGARefreshLayout-Android](https://github.com/bingoogolapple/BGARefreshLayout-Android)&nbsp;&nbsp;多种下拉刷新效果、上拉加载更多、可配置自定义头部广告位
+
+##### Loding
+
+- [Android-SpinKit](https://github.com/ybq/Android-SpinKit) &nbsp;&nbsp;炫酷的加载，实现了[SpinKit](https://github.com/tobiasahlin/SpinKit) 
+- [LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable) &nbsp;&nbsp;炫酷的Loding动画
+- [GifLoadingView](https://github.com/Rogero0o/GifLoadingView)&nbsp;&nbsp;炫酷的Loding动画
+- [-dampView-springingView](https://github.com/Huyamin150/-dampView-springingView)&nbsp;&nbsp;带有阻尼效果（橡皮筋效果）跳动的Loading动画
+- [BoilingLoadingView](https://github.com/Yellow5A5/BoilingLoadingView)&nbsp;&nbsp;锅煮萝卜的Loading动画
+- [CoolAndroidAnim](https://github.com/TomWithJerry/CoolAndroidAnim)
+- [AdhesiveLoadingView](https://github.com/yxping/AdhesiveLoadingView)&nbsp;&nbsp;具有粘性的滑动小球，跌落反弹形成loading的效果
+- [android-shapeLoadingView](https://github.com/zzz40500/android-shapeLoadingView)&nbsp;&nbsp;高仿新版58 加载动画
+- [GoogleProgressBar](https://github.com/jpardogo/GoogleProgressBar)Android library to display progress like google does in some of his services.
+
+
+
+##### ViewPager
+
+- [ParallaxViewPager](https://github.com/ybq/ParallaxViewPager) &nbsp;&nbsp;ParallaxViewPager
+- [CircleIndicator](https://github.com/ongakuer/CircleIndicator)&nbsp;&nbsp;A lightweight viewpager indicator
+- [MagicViewPager](https://github.com/hongyangAndroid/MagicViewPager)&nbsp;&nbsp;单页显示3个Item的ViewPager切换，适用于Banner
+- [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager) &nbsp;&nbsp;类似Google的nexus机子6.0系统的开机动画
+- [InfiniteIndicator](https://github.com/lightSky/InfiniteIndicator)&nbsp;&nbsp;This lib can be used for viewpager infinite loop with indicator easily.
+
+
+
+##### TimePicker
+
+- [TimePickerDialog](https://github.com/JZXiang/TimePickerDialog)&nbsp;&nbsp;Android时间选择器
+
+##### SwipeBack
+
+- [SwipeBackSample](https://github.com/hanhailong/SwipeBackSample)&nbsp;&nbsp;高仿微信手势滑动返回
+- [SwipeBack](https://github.com/sockeqwe/SwipeBack)&nbsp;&nbsp;高仿简书手势滑动返回
+- [SwipeBack](https://github.com/liuguangqiang/SwipeBack)&nbsp;&nbsp;SwipeBack Lib,可定制手势.
+- [RecyclerViewUndoSwipe](https://github.com/HoneyNeutrons/RecyclerViewUndoSwipe)&nbsp;&nbsp; ItemTouch helper swipe and drag support for RecyclerView 
+- [AndroidSwipeLayout](https://github.com/daimajia/AndroidSwipeLayout)&nbsp;&nbsp;The Most Powerful Swipe Layout!
+- [android-PullRefreshLayout](https://github.com/baoyongzhang/android-PullRefreshLayout)&nbsp;&nbsp;This component like SwipeRefreshLayout, it is more beautiful than SwipeRefreshLayout.
+- [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)&nbsp;&nbsp;An Android library that help you to build app with swipe back gesture.
+
+
+
+##### 高斯模糊
+
+- [ImageBlurring](https://github.com/qiujuer/ImageBlurring)
+- [android-stackblur](https://github.com/kikoso/android-stackblur)&nbsp;&nbsp; 
+- [RxBlur](https://github.com/SmartDengg/RxBlur)&nbsp;&nbsp; 用RxJava处理和操作高斯模糊效果的简单用例。
+- [BlurDialogFragment](https://github.com/tvbarthel/BlurDialogFragment)
+
+##### Adapter
+
+- [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)&nbsp;&nbsp;一个强大并且灵活的RecyclerViewAdapter
+- [base-adapter-helper](https://github.com/JoanZapata/base-adapter-helper)&nbsp;&nbsp;Abstraction for the usual BaseAdapter "ViewHolder" pattern
+- [RecyclerView-FlexibleDivider](https://github.com/yqritc/RecyclerView-FlexibleDivider) &nbsp;&nbsp;RecyclerView分割线
+
+##### Spinner 
+
+- [Material-Spinner](https://github.com/jaredrummler/Material-Spinner) 
+
+##### Dialog
+
+- [material-dialogs](https://github.com/afollestad/material-dialogs)
+- [MaterialDialog](https://github.com/drakeet/MaterialDialog)
 
 
 ## Python
