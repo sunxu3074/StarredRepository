@@ -5,39 +5,39 @@
 网页地址：<https://sunxu.work/cs/github_starred_repository/>
 
 ```
-│------ Android
-│          │----- 资源类
-│          │----- Google
-│          │----- Facebook
-│          │----- Square
-│          │----- JakeWharton
-│          │----- Yalantis
-│          │----- Material Design
-│          │----- 数据库
-│          │----- Oauth
-│          │----- 框架类
-│          │----- 工具类
-│          │----- 架构类
-│          │----- 测试类
-│          │----- 权限相关
-│          │----- APP
-│          │----- View
-│		│----- 图表
-│		│----- TAB
-│		│----- 下拉加载
-│		│----- Loding
-│		│----- ViewPager
-│		│----- TimePicker
-│		│----- 高斯模糊
-│		│----- SwipeBack
-│		│----- Dialog
-│		│----- Spinner
-│		│----- Adapter
-│------ Python
-│------ 前端
-│------ 流媒体
-│------ 杂七杂八
-│
+.
+├── Android
+│   ├── View
+│   │   ├── Adapter
+│   │   ├── Dialog
+│   │   ├── Loading
+│   │   ├── Spinner
+│   │   ├── SwipeBack
+│   │   ├── TAB
+│   │   ├── TimePicker
+│   │   ├── ViewPager
+│   │   ├── 图表
+│   │   ├── 下拉加载
+│   │   └── 高斯模糊
+│   ├── App
+│   ├── Facebook
+│   ├── Google
+│   ├── JakeWharton
+│   ├── MaterialDesign
+│   ├── Oauth
+│   ├── Square
+│   ├── Yalantis
+│   ├── 工具类
+│   ├── 数据库
+│   ├── 架构类
+│   ├── 框架类
+│   ├── 测试类
+│   ├── 资源类
+│   └── 权限相关
+├── Python
+├── 前端
+├── 流媒体
+└── 杂七杂八
 
 ```
 
