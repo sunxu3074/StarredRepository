@@ -22,17 +22,17 @@
 │          │----- 权限相关
 │          │----- APP
 │          │----- View
-│					│----- 图表
-│					│----- TAB
-│					│----- 下拉加载
-│					│----- Loding
-│					│----- ViewPager
-│					│----- TimePicker
-│					│----- 高斯模糊
-│					│----- SwipeBack
-│					│----- Dialog
-│					│----- Spinner
-│					│----- Adapter
+│		│----- 图表
+│		│----- TAB
+│		│----- 下拉加载
+│		│----- Loding
+│		│----- ViewPager
+│		│----- TimePicker
+│		│----- 高斯模糊
+│		│----- SwipeBack
+│		│----- Dialog
+│		│----- Spinner
+│		│----- Adapter
 │------ Python
 │------ 前端
 │------ 流媒体
